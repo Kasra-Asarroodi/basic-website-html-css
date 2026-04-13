@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Happy Paws – Apply to Adopt</title>
+    <meta name="Author" content="Kasra Asarroodi, asar0014">
+    <meta name="description" content="Happy Paws Animal Shelter Homepage">
+
+</head>
+<body>
+  <header>
+    <h1>Happy Paws Animal Shelter.</h1>
+  </header> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adoption.html">Available Pets</a></li>
+            <li><a href="application.html">Apply to Adopt</a></li>
+            <li><a href="admin.html">Admin Portal</a></li>
+        </ul>
+      </nav>
+   <main>
+    <h2>Apply to Adopt</h2>
+    <p>start your application process today !</p>
+    <form method="POST">
+      <fieldset>
+        <legend>Your Details></legend>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname">
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="you@example.com" id="email" name="email" required>
+        <label for="phonenumber">Phone Number:</label>
+        <input type="tel" id="phonenumber" name="phonenumber">
+      </fieldset>
+      <fieldset>
+        <legend> Housing Details</legend>
+        <label for="housingtype">Housing Type:</label>
+        <select id="housingtype" name="housingtype">
+          <option value="house">House</option>
+          <option value="apartment">Apartment</option>
+          <option value="sharedhouse">Shared House</option>
+        </select>
+        <p><input type= "radio" id="smYard" name="yardType" value="small">Small Yard</p>
+        <p><input type= "radio" id="medYard" name="yardType" value="medium">Medium Yard</p>
+        <p><input type= "radio" id="lgYard" name="yardType" value="large">Large Yard</p>
+        <label for="PreviousPetExperience">Previous Pet Experience:</label>
+        <textarea id="PreviousPetExperience" name="PreviousPetExperience" rows="5" cols="50"></textarea>
+      </fieldset>
+      <input type="submit" value="Submit Application">
+    </form>
+   </main>   
+  <footer>
+    <p>""© 2026 Happy Paws Shelter".</p>
+  </footer>  
+</body>
+</html>
